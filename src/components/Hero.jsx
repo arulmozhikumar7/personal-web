@@ -7,14 +7,15 @@ const Hero = () => {
     <div className="text-center">
       <div className="flex justify-center mx-auto text-2xl font-bold tracking-tight">
         <p className="mt-20 font-mukta md:text-5xl md:mt-16">
-          Hello there, I'm <span className="text-teal-500">Arulmozhikumar</span>
+          Hello there, I'm{" "}
+          <span className="text-green-500">Arulmozhikumar</span>
         </p>
       </div>
 
       <div className="mx-auto mt-6 text-lg font-mukta md:w-1/2">
         <TypeAnimation
           sequence={[
-            `A final-year Computer Science Engineering student specializing in full-stack development and cloud computing. I'm eager to collaborate on innovative tech projects. </>`,
+            `A final-year Computer Science Engineering student specializing in full-stack development . I'm eager to collaborate on innovative tech projects. </>`,
           ]}
           speed={50}
           cursor={true}
